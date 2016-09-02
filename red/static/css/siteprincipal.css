@@ -1,0 +1,91 @@
+body{
+
+}
+
+.barra{
+    background: #fa4848;
+    min-height: 100px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.txttopo{
+    overflow: auto;
+    float: left;
+    color: #FFFFFF;
+    font-family: 'Impact';
+    font-size: 50px;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #000000;
+    margin: 10px 0px 0px 15px;
+}
+
+.botao{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 1px #000000;
+    border: 0px solid;
+    border-radius: 5px;
+    height: 50px;
+    width:250px;
+    overflow: auto;
+    float: right;
+    margin: 25px 15px 0px 0px;
+}
+
+.botao:hover{
+    background: #cfd0cc;
+}
+
+.txtbotao{
+    overflow: auto;
+    float: left;
+    color: #fa4848;
+    font-family: 'Impact';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 5px 0px 0px 50px;
+}
+.botao:hover .txtbotao{
+    color: #FFFFFF;
+}
+
+.txtbotaofinal{
+    overflow: auto;
+    float: left;
+    color: #fa4848;
+    font-family: 'Impact';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 5px 0px 0px 1px;
+}
+
+.botao:hover .txtbotaofinal{
+    color: #FFFFFF;
+}
+
+.txtnumero{
+    overflow: auto;
+    float: left;
+    color: #fa4848;
+    font-family: 'Impact';
+    font-size: 31px;
+    font-weight: normal;
+    margin: 5px 0px 0px 5px;
+}
+
+.botao:hover .txtnumero{
+    color: #FFFFFF;
+}
+
+.video{
+    overflow: auto;
+    box-shadow: 1px 1px 1px #000000;
+    border: 0px solid;
+    border-radius: 5px;
+    width: 800px;
+    height: 500px;
+    margin: 10px 0px 0px 0px;
+}
+
+.centro{
+     text-align: center;
+}
