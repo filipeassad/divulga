@@ -12,13 +12,15 @@
         var segundos = 10;
         function contagem_tempo(){
 
+            var elem = document.getElementById("linkInutil");
             var numero = document.getElementById("numero");
             numero.innerHTML = segundos;
 
             segundos = segundos - 1;
 
             if (segundos == -1) {
-                segundos = 0;
+                //segundos = 0;
+                elem.parentNode.removeChild(elem);
             }
 
             timerID = setTimeout("contagem_tempo()",1000);
@@ -33,14 +35,21 @@
 
             <div class="txttopo">Seu vídeo está carregando</div>
 
-            <a href="">
-                <div class="botao">
-                    <div class="txtbotao">Falta</div>
-                    <div id="numero" class="txtnumero"></div>
-                    <div class="txtbotaofinal">seg...</div>
-                </div>
-            </a>
+            <div class="caixabotoes">
+                <a href="https://www.youtube.com/watch?v=piXRVCRY_ls">
+                    <div class="botao">
+                    <div class="txtbotao">Sair daqui!</div>
+                    </div>
+                </a>
 
+                <a id="linkInutil" href="#" onclick="return false;" >
+                    <div class="botao">
+                        <div class="txtbotao">Falta</div>
+                        <div id="numero" class="txtnumero"></div>
+                        <div class="txtbotaofinal">seg...</div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -51,7 +60,7 @@
         </div>
 
         <div class="col-md-8 centro">
-            <!--<iframe class="video" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>-->
+            <iframe class="video" src="https://www.youtube.com/embed/7y-E8D0V5Vk?autoplay=1"></iframe>
         </div>
 
         <div class="col-md-2">
