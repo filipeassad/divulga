@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = patterns('',
-    url(r'^video/(\d+) /$', views.siteprincipal)
+    url(r'^video/(\d+)/$', views.siteprincipal)
 )
