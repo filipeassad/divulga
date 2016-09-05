@@ -1,7 +1,7 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
 from . import views
 
 
-urlpatterns = patterns('',
-    url(r'^video/(\d+)/$', views.siteprincipal)
-)
+urlpatterns = [
+        url(r'^video/(\d+)/$', views.siteprincipal),
+    ]
